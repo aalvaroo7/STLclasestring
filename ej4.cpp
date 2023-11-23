@@ -11,5 +11,15 @@ int main(){
     }
     else{
         cout << "la subcadena " << sub_str << " no está en la cadena" << endl;
+
+        std::string nueva_subcadena = "hi";
+        frase.replace(pos, sub_str.length(), nueva_subcadena);
+
+        std::cout << "Cadena resultante: " << frase << std::endl;
     }
+    else {
+        std::cout << "La subcadena '" << sub_str << "' no está en la cadena" << std::endl;
+    }
+
+    return 0;
 }

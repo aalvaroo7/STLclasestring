@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+using namespace std;
 int main() {
     // Definimos una cadena inicial
     std::string str = "Inteligencia Artificial";
